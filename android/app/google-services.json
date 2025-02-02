@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "89849667896",
+    "firebase_url": "https://icanwatchyou-292d7-default-rtdb.firebaseio.com",
+    "project_id": "icanwatchyou-292d7",
+    "storage_bucket": "icanwatchyou-292d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89849667896:android:eea0c9a1845bace8c961cd",
+        "android_client_info": {
+          "package_name": "com.example.icanwatchyou"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPepoPO2lHUugflxRVVxbulsPP0DUmX8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89849667896:android:fad6878b8d92375bc961cd",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clone_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPepoPO2lHUugflxRVVxbulsPP0DUmX8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -13,21 +13,21 @@ import 'package:provider/provider.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // initialise app based on platform- web or mobile
-  // if (kIsWeb) {
-  //   await Firebase.initializeApp(
-  //     options: const FirebaseOptions(
-  //       apiKey: "AIzaSyBo1JWILrWjueXpfg0L47c3xa6bWqSYxd0",
-  //       appId: "1:89849667896:web:a878e1f21f5d2fa7c961cd",
-  //       messagingSenderId: "89849667896",
-  //       projectId: "icanwatchyou-292d7",
-  //       storageBucket: 'icanwatchyou-292d7.appspot.com'
-  //     ),
-  //   );
-  // } else {
-  //   await Firebase.initializeApp();
-  // }
-   await Firebase.initializeApp();
+ // initialise app based on platform- web or mobile
+  if (kIsWeb) {
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: "AIzaSyBo1JWILrWjueXpfg0L47c3xa6bWqSYxd0",
+        appId: "1:89849667896:web:a878e1f21f5d2fa7c961cd",
+        messagingSenderId: "89849667896",
+        projectId: "icanwatchyou-292d7",
+        storageBucket: 'icanwatchyou-292d7.appspot.com'
+      ),
+    );
+  } else {
+    await Firebase.initializeApp();
+  }
+   //await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
